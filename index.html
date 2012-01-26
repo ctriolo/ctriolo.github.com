@@ -4,16 +4,16 @@ title: Christopher Triolo
 ---
 <!-- Home
     ================================================== -->
-<div class="container">
+<div id="home">
   {% for post in site.posts %}
     {% unless post.hide %}
-      {% cycle '<div class="row">', '', '' %}
+      {% cycle '<div class="row">', '' %}
       <div class="span5">
         <h2>{{ post.title }}</h2>
         <p>{{ post.content | truncatewords: 50 | strip_html }}<a href="{{ post.url }}">more &raquo;</a></p>
       </div>
       {% if forloop.last %}</div>{% endif %}
-      {% unless forloop.last %}{% cycle '', '', '</div>' %}{% endunless %}
+      {% unless forloop.last %}{% cycle '', '</div>' %}{% endunless %}
     {% endunless %}
   {% endfor %}
 </div>

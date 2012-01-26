@@ -12,24 +12,24 @@
    <!-- default layout CSS -->
    <style type="text/css">
      body { padding: 20px 0; }
-     .container { width: 880px; }
+     .container { width: 580px; }
      header { text-align: center; }
-     a .hero-unit { color: #404040; }
-     a:hover { text-decoration: none; }
+     header .hero-unit h1 { font-size: 54px; }
+     header a .hero-unit { color: #404040; }
+     header a:hover { text-decoration: none; }
    </style>
 
    <!-- icons -->
    <link rel="shortcut icon" type="image/x-icon" href="/assets/ico/favicon.ico">
 </head>
-<body>
+<body class="container">
 
   <!-- Header
        ================================================== -->
-  <header class="container">
+  <header>
     <a href="\">
       <div class="hero-unit">
         <h1>Christopher Triolo</h1>
-        <p>Princeton University Student. Computer Scientist. Software Engineer.</p>
       </div>
     </a>
   </header>
@@ -38,12 +38,11 @@
 
   <!-- Footer
        ================================================== -->
-  <footer class="container">
+  <footer>
     <a href="https://github.com/ctriolo/ctriolo.github.com" class="pull-right">
       {{ site.time | date_to_long_string }}
     </a>
-    <address class="span10">
-      <strong>Christopher Triolo:</strong>
+    <address>
       <a href="mailto:ctriolo@princeton.edu">email</a>
       <a href="http://facebook.com/christophertriolo">facebook</a>
       <a href="http://twitter.com/christriolo">twitter</a>
