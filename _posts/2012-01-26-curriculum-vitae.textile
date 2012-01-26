@@ -1,0 +1,58 @@
+---
+layout: post
+title: Curriculum Vitae
+permalink: cv.html
+hide: true
+---
+
+h2. Education
+
+*Princeton University*, Princeton, NJ, +September 2008 - June 2012+
+_B.S.E. Computer Science_
+Relevant Coursework: Operating Systems, Programming Systems, Theory of Algorithims, Algorithms and Data Structures, Computer Graphics, Computer Networks, Programming Languages, Reasoning about Compution, Logic Design, Probability and Stochastic Systems, Optimization, Advanced Microeconomic Theory
+
+*Stony Brook University*, Stony Brook, NY, +June 2009 - July 2009+
+Relevant Coursework: Artificial Intellegence, Survey of Probability and Statistics
+
+*Commack High School*, Commack, NY, +September 2004 - June 2008+
+_IB Diploma Recipient_
+Honors: Top Cohort, National Honor Society
+
+h2. Selected Experience
+
+*Princeton Computer Science*, Princeton, NJ, +January 2010 – Present+
+_Laboratory Teaching Assistant_
+* Teach computer science principles such as algorithms and data structures in addition to proper programming techniques such as modular programming, programming style, testing, and debugging.
+* Answer questions from over 300 undergraduate CS students among three classes.
+* Aid students in understanding and completing their assignments.
+
+*Facebook*, Palo Alto, CA, +May 2011 – August 2011+
+_Software Engineering Intern_
+* Increased revenue and new payer conversion rates through the credits payment flows.
+* Improved the payment flows to show the optimal presentation of payment options for each user.
+* Built an internal tool that enables customization of the presentation of payment options by region.
+
+*10Gen (MongoDB)*, New York, NY, +May 2010 – August 2010+
+_Software Engineering Intern_
+* Led the development on each project I was assigned to as the sole company intern.
+* Improved and maintained MongoDB’s C driver to support the database’s file-­‐system specification.
+* Created an Nginx web-­‐server module that quickly serves files by utilizing the C driver I worked on.
+(MongoDB and related projects are open-­‐source. View my work at github.com/ctriolo.)
+
+*hackNY*, New York, NY, +May 2010 – June 2010+
+_2010 hackNY Fellow_
+* One of twelve students mentored to be the next generation of technology innovators in New York.
+* Attended seminars on various topics of high tech entrepreneurship such as software development, data
+analysis, small company management, pivoting, and venture capital investing.
+* Participated in NYC’s vibrant tech community by attending meet-­‐ups and hack-­‐a-­‐thons.
+
+h2. University Activities
+
+*ACM Student Chapter*, Vice President, Former Treasurer and Secretary, _September 2010 – Present_
+*Entrepreneurship Club*, Member, _October 2009 – Present_
+*Society of Hispanic Professional Engineers*, Member, _September 2009 – Present_
+*Princeton Tae Kwon Do*, Member, _September 2008 – May 2010_
+
+h2. Skills
+
+Strong proficiency in C, Java, and x86 Assembly. Working knowledge of C++, Coq, OCaml, PHP, Python, and Verilog. Comfortable in a Linux environment (worked extensively in POSIX). Wrote essential pieces of an operating system.

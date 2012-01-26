@@ -6,7 +6,7 @@ layout: default
 <div class="container">
   <h1>
     {{ page.title }}
-    <small> {{ page.date | date_to_long_string }} </small>
+    {% comment %}<small> {{ page.date | date_to_long_string }} </small>{% endcomment %}
   </h1>
   {{ content }}
 </div>
