@@ -13,7 +13,7 @@
    <style type="text/css">
      body { padding: 20px 0; }
      .container { width: 880px; }
-     header, footer { text-align: center; }
+     header { text-align: center; }
      a .hero-unit { color: #404040; }
      a:hover { text-decoration: none; }
    </style>
@@ -39,8 +39,11 @@
   <!-- Footer
        ================================================== -->
   <footer class="container">
-    <address>
-      <strong>Christopher Triolo</strong><br>
+    <a href="https://github.com/ctriolo/ctriolo.github.com" class="pull-right">
+      {{ site.time | date_to_long_string }}
+    </a>
+    <address class="span10">
+      <strong>Christopher Triolo:</strong>
       <a href="mailto:ctriolo@princeton.edu">email</a>
       <a href="http://facebook.com/christophertriolo">facebook</a>
       <a href="http://twitter.com/christriolo">twitter</a>
