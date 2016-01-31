@@ -1,19 +1,79 @@
----
-layout: default
-title: Christopher Triolo
----
-<!-- Home
-    ================================================== -->
-<div id="home">
-  {% for post in site.posts %}
-    {% unless post.hide %}
-      {% cycle '<div class="row">', '' %}
-      <div class="span5">
-        <h2>{{ post.title }}</h2>
-        <p>{{ post.content | truncatewords: 50 | strip_html }}<a href="{{ post.url }}">more &raquo;</a></p>
-      </div>
-      {% if forloop.last %}</div>{% endif %}
-      {% unless forloop.last %}{% cycle '', '</div>' %}{% endunless %}
-    {% endunless %}
-  {% endfor %}
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>Christopher Triolo</title>
+   <meta name="description" content="" />
+   <meta name="author" content="Christopher Triolo" />
+   <link rel="stylesheet" href="/css/styles.css">
+   <link rel="stylesheet" href="league-gothic/webfonts/stylesheet.css">
+   <link rel="shortcut icon" type="image/x-icon" href="/assets/ico/favicon.ico">
+</head>
+<body>
+  <div id="background">
+    <span id="background-content">
+      <!-- shuffle these with perl -MList::Util -e 'print List::Util::shuffle <>' -->
+      software engineer
+      business identity
+      karaoke
+      a cappella
+      wrestling
+      product engineer
+      <a href="http://linkedin.com/in/ctriolo">linkedin</a>
+      tenor
+      tech entrepreneurship
+      <a href="https://open.spotify.com/user/12144138359">spotify</a>
+      edm
+      taekwondo
+      tech lead
+      princeton university
+      vegan
+      <a href="https://www.instagram.com/christophertriolo/">instagram</a>
+      adventure racer
+      advertiser interfaces
+      half marathon
+      commack high school
+      friend
+      bachelors of science and engineering
+      react
+      adventurer
+      <a href="http://facebook.com/christophertriolo">facebook</a>
+      singing
+      css
+      computer graphics
+      aerial silks
+      pole dancing
+      boxing
+      hackNY fellow
+      c
+      aerial rope
+      computer science
+      php
+      <a href="mailto:christopher%20at%20sign%20triolo%20dot%20com">email</a>
+      javascript
+      weight lifter
+      <a href="http://github.com/ctriolo">github</a>
+      ads
+      philanthropist
+      world traveler
+    </span>
+  </div>
+  <div id="outer-container">
+    <div id="inner-container">
+      christopher
+      </br>
+      triolo
+    </div>
+  </div>
+  <script>
+    <!-- Fills in the background because i didn't want to copy and paste -->
+    var span = document.getElementById("background-content");
+    var background = document.getElementById('background')
+    for (var i = 0; i < 10; i++) {
+      clone = span.cloneNode(true);
+      clone.id = "background-content"+i;
+      background.appendChild(clone);
+    }
+  </script>
+</body>
+</html>
